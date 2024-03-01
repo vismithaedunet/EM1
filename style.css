@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("photo.jpg");
+    height: 100vh;
+    background-size:cover;
+    background-position: center center;  
+    position: relative;
+
+}
+
+.nav-area{
+    float: right ;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block; 
+}
+
+.nav-area li a{
+    color: #fac031;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: mv boli;
+    font-size: 20px;
+}
+.nav-area li a:hover{
+    background: #fac031;
+    color: #333;
+    cursor: pointer;
+    transition: 3s;
+}
+/* .logo1 img {
+    width: 100px;
+    float: left;
+    height: 1555px;
+} */
+.Welcome-text{
+    position: absolute ;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align:center ;
+
+}
+.Welcome-text h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+
+}
+.Welcome-text a{
+    border: 1px solid #000dff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 20px;
+    display:inline-block;
+    color: #fff;
+    transition: 3s;
+}
+.Welcome-text a:hover{
+    background: #fac031;
+    color: #333;
+
+}
+/* chatbot */
+    /* .chat-container {
+        max-width: 400px;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        padding: 20px;
+    }
+    
+    .chat-box {
+        height: 300px;
+        overflow-y: scroll;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    
+    #user-input {
+        width: calc(100% - 70px);
+        padding: 8px;
+        margin-right: 10px;
+    }
+    
+    button {
+        padding: 8px 15px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+    } */
+  
